@@ -1,0 +1,2 @@
+/Users/anjubijo/kleanit-app-employee/android/app/.cxx/Debug/2u1t1u3k/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/anjubijo/kleanit-app-employee/android/app/.cxx/Debug/2u1t1u3k/armeabi-v7a/CMakeFiles/rebuild_cache.dir

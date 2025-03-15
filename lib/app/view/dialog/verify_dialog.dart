@@ -41,7 +41,7 @@ class _VerifyDialogState extends State<VerifyDialog> {
                   textAlign: TextAlign.center,
                   txtHeight: FetchPixels.getPixelHeight(1.3)),
               getVerSpace(FetchPixels.getPixelHeight(30)),
-              getButton(context, blueColor, "Ok", Colors.white, () {
+              getButton(context, greenColor, "Ok", Colors.white, () {
                 Constant.sendToNext(context, Routes.loginRoute);
               }, 18,
                   weight: FontWeight.w600,

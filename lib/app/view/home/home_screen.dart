@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<String> itemList = [
     "documnet.svg",
-    "chat.svg",
+    "notification_unselected.svg",
     "review.svg",
     "user.svg"
   ];
@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             child: Container(
               decoration: BoxDecoration(
-                  color: position == index ? blueColor : Colors.transparent,
+                  color: position == index ? greenColor : Colors.transparent,
                   shape: BoxShape.circle),
               child: Padding(
                 padding: EdgeInsets.all(FetchPixels.getPixelHeight(13)),

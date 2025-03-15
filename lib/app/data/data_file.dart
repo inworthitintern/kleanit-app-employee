@@ -18,15 +18,16 @@ class DataFile {
   ];
 
   static List<ModelBooking> bookingList = [
-    ModelBooking("Cleaning", "Today, 11:00 am", "booking_owner.png",
-        "Mendy Wilson", "Approved", "Today"),
-    ModelBooking("Cleaning", "Today, 08:00 am", "booking_owner1.png",
-        "Jenny Winget", "Approved", "Today"),
-    ModelBooking("Cleaning", "Today, 07:00 am", "booking_owner2.png",
-        "Jacob Jones", "Approved", "Today"),
-    ModelBooking("Cleaning", "Yesterday, 06:00 am", "booking_owner3.png",
-        "Ronald Richards", "Approved", "Yesterday")
+    ModelBooking("Cleaning", "14-02-2025", "08:00 am", "10:00 pm","4","1050","booking_owner.png",
+        "Mendy Wilson", "Approved", "14-02-2025", status: ModelBooking.bookingStatuses[0]),
+    ModelBooking("Cleaning", "14-02-2025", "11:00 am", "1:00 pm","2","400","booking_owner1.png",
+        "Jenny Winget", "Approved", "14-02-2025", status: ModelBooking.bookingStatuses[1]),
+    ModelBooking("Cleaning", "14-02-2025", "03:00 pm","5:00 pm","3","850", "booking_owner2.png",
+        "Jacob Jones", "Approved", "14-02-2025", status: ModelBooking.bookingStatuses[2]),
+    ModelBooking("Cleaning", "13-02-2025", "06:00 pm", "7:00 pm","1","200","booking_owner3.png",
+        "Ronald Richards", "Approved", "13-02-2025", status: ModelBooking.bookingStatuses[3])
   ];
+
 
   static List<ModelReview> reviewList = [
     ModelReview("booking_owner.png", "Mendy Wilson"),

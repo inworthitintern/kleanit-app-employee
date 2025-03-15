@@ -26,7 +26,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
       height: FetchPixels.getPixelHeight(68),
       textStyle: TextStyle(
           fontSize: FetchPixels.getPixelHeight(24),
-          color: blueColor,
+          color: greenColor,
           fontWeight: FontWeight.w800),
       decoration: BoxDecoration(
           color: Colors.white,
@@ -72,7 +72,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   ),
                   getVerSpace(FetchPixels.getPixelHeight(50)),
-                  getButton(context, blueColor, "Verify", Colors.white, () {
+                  getButton(context, greenColor, "Verify", Colors.white, () {
                     showDialog(
                         barrierDismissible: false,
                         builder: (context) {
@@ -90,7 +90,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
                     children: [
                       getCustomFont("Didn’t recieve code?", 14, Colors.black, 1,
                           fontWeight: FontWeight.w400),
-                      getCustomFont(" Resend", 16, blueColor, 1,
+                      getCustomFont(" Resend", 16, greenColor, 1,
                           fontWeight: FontWeight.w800)
                     ],
                   )

@@ -94,7 +94,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           left: FetchPixels.getPixelWidth(20),
           right: FetchPixels.getPixelWidth(20),
           bottom: FetchPixels.getPixelHeight(30)),
-      child: getButton(context, blueColor, "Save", Colors.white, () {
+      child: getButton(context, greenColor, "Save", Colors.white, () {
         Constant.backToPrev(context);
         Constant.backToPrev(context);
       }, 18,

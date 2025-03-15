@@ -66,7 +66,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                       imageWidth: FetchPixels.getPixelWidth(19),
                       imageHeight: FetchPixels.getPixelHeight(17.66)),
                   getVerSpace(FetchPixels.getPixelHeight(50)),
-                  getButton(context, blueColor, "Submit", Colors.white, () {
+                  getButton(context, greenColor, "Submit", Colors.white, () {
                     Constant.sendToNext(context, Routes.resetRoute);
                   }, 18,
                       weight: FontWeight.w600,

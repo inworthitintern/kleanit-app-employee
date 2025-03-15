@@ -143,7 +143,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           height: FetchPixels.getPixelHeight(24),
                           width: FetchPixels.getPixelHeight(24),
                           decoration: BoxDecoration(
-                              color: (agree) ? blueColor : backGroundColor,
+                              color: (agree) ? greenColor : backGroundColor,
                               border: (agree)
                                   ? null
                                   : Border.all(color: Colors.grey, width: 2),
@@ -162,7 +162,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ],
                   ),
                   getVerSpace(FetchPixels.getPixelHeight(50)),
-                  getButton(context, blueColor, "Sign Up", Colors.white, () {
+                  getButton(context, greenColor, "Sign Up", Colors.white, () {
                     Constant.sendToNext(context, Routes.verifyRoute);
                   }, 18,
                       weight: FontWeight.w600,
@@ -180,7 +180,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         onTap: () {
                           finishView();
                         },
-                        child: getCustomFont(" Login", 16, blueColor, 1,
+                        child: getCustomFont(" Login", 16, greenColor, 1,
                            fontWeight: FontWeight.w800
                         ),
                       )

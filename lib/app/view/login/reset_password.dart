@@ -107,7 +107,7 @@ class _ResetPasswordState extends State<ResetPassword> {
                     });
                   }),
                   getVerSpace(FetchPixels.getPixelHeight(50)),
-                  getButton(context, blueColor, "Submit", Colors.white, () {
+                  getButton(context, greenColor, "Submit", Colors.white, () {
                     showDialog(
                         barrierDismissible: false,
                         builder: (context) {

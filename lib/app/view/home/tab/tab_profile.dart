@@ -139,7 +139,7 @@ class _TabProfileState extends State<TabProfile> {
                       sufixIcon: true,
                       suffixImage: "arrow_right.svg"),
                   getVerSpace(FetchPixels.getPixelHeight(40)),
-                  getButton(context, blueColor, "Logout", Colors.white, () {
+                  getButton(context, greenColor, "Logout", Colors.white, () {
                     Constant.closeApp();
                   }, 18,
                       weight: FontWeight.w600,
