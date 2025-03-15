@@ -116,7 +116,7 @@ class _TabReviewState extends State<TabReview> {
                                 fontWeight: FontWeight.w400,
                                 txtHeight: FetchPixels.getPixelHeight(1.3)),
                             getVerSpace(FetchPixels.getPixelHeight(10)),
-                            Row(
+                            /*Row(
                               children: [
                                 getSvgImage("heart.svg",
                                     width: FetchPixels.getPixelHeight(20),
@@ -132,7 +132,7 @@ class _TabReviewState extends State<TabReview> {
                                 getCustomFont("Reply", 14, textColor, 1,
                                     fontWeight: FontWeight.w400),
                               ],
-                            ),
+                            ),*/
                           ],
                         ),
                       )

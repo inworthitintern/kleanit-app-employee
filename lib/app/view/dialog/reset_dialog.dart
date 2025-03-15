@@ -39,7 +39,7 @@ class _ResetDialogState extends State<ResetDialog> {
                   txtHeight: 1.3,
                   textAlign: TextAlign.center),
               getVerSpace(FetchPixels.getPixelHeight(30)),
-              getButton(context, blueColor, "Ok", Colors.white, () {
+              getButton(context, greenColor, "Ok", Colors.white, () {
                 Constant.sendToNext(context, Routes.loginRoute);
               }, 18,
                   weight: FontWeight.w600,

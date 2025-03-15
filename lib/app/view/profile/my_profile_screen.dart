@@ -93,7 +93,7 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
           left: FetchPixels.getPixelWidth(20),
           right: FetchPixels.getPixelWidth(20),
           bottom: FetchPixels.getPixelHeight(30)),
-      child: getButton(context, blueColor, "Edit Profile", Colors.white, () {
+      child: getButton(context, greenColor, "Edit Profile", Colors.white, () {
         Constant.sendToNext(context, Routes.editProfileScreenRoute);
       }, 18,
           weight: FontWeight.w600,

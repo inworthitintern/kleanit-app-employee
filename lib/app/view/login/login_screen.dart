@@ -79,11 +79,11 @@ class _LoginScreenState extends State<LoginScreen> {
                           Constant.sendToNext(context, Routes.forgotRoute);
                         },
                         child: getCustomFont(
-                            "Forgot Password?", 16, blueColor, 1,
+                            "Forgot Password?", 16, greenColor, 1,
                             fontWeight: FontWeight.w800),
                       )),
                   getVerSpace(FetchPixels.getPixelHeight(49)),
-                  getButton(context, blueColor, "Login", Colors.white, () {
+                  getButton(context, greenColor, "Login", Colors.white, () {
                     PrefData.setLogIn(true);
                     Constant.sendToNext(context, Routes.homeScreenRoute);
                   }, 18,
@@ -102,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         onTap: () {
                           Constant.sendToNext(context, Routes.signupRoute);
                         },
-                        child: getCustomFont(" Sign Up", 16, blueColor, 1,
+                        child: getCustomFont(" Sign Up", 16, greenColor, 1,
                             fontWeight: FontWeight.w800),
                       )
                     ],

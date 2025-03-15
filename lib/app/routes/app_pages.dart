@@ -21,7 +21,9 @@ import 'app_routes.dart';
 class AppPages {
   static const initialRoute = Routes.homeRoute;
   static Map<String, WidgetBuilder> routes = {
-    Routes.homeRoute: (context) => const SplashScreen(),
+
+    //Routes.homeRoute: (context) => const SplashScreen(),
+    Routes.homeRoute: (context) => const HomeScreen(),
     Routes.loginRoute: (context) => const LoginScreen(),
     Routes.forgotRoute: (context) => const ForgotPassword(),
     Routes.resetRoute: (context) => const ResetPassword(),
